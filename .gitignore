@@ -1,0 +1,23 @@
+# Terraform state and backup files
+*.tfstate
+*.tfstate.backup
+
+# Crash logs
+crash.log
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+secret.tfvars
+
+# Terraform working directory
+.terraform/
+
+# Lock file (optional to ignore)
+.terraform.lock.hcl
+
+# Editor folders
+.vscode/
+
+#terraform exe files
+*.exe
